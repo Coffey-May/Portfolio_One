@@ -113,7 +113,8 @@ body{
 }
 
 .bg2::after {
-  background-image: url('./Screen\ Shot\ 2020-07-22\ at\ 11.46.55\ PM.png');
+  /* background-image: url('./Screen\ Shot\ 2020-07-22\ at\ 11.46.55\ PM.png'); */
+  background-color: rgba(255, 99, 71, 0.404);
   background-repeat: no-repeat;
   opacity: .2;
   /* margin-top:30vh; */
@@ -305,6 +306,26 @@ body {
   padding: .25em;
 }
 
+.modal-content{
+    height:80vh;
 
-
-
+}
+.modal-body{
+background-image: url(./Paintingscreenshot.png);
+background-size: cover;
+}
+.modal-body2{
+  background-image: url(./Screenshot2.png);
+  background-size: cover;
+  height:80vh;
+  }
+  .modal-body3{
+    background-image: url(./Screen\ Shot\ 2020-02-20\ at\ 9.40.16\ PM.png);
+    background-size: cover;
+    height:80vh;
+    }
+    .modal-body4{
+      background-image: url(./Screen\ Shot\ 2020-02-20\ at\ 9.41.01\ PM.png);
+      background-size: cover;
+      height:80vh;
+      }
