@@ -14,7 +14,9 @@
 
 import { smoothScrollComponent } from './/smoothScroll.js'
 import { headerNavComponent } from './headerNav.js'
+// import { landingPageComponent } from "./landingPage.js"
 
 
 headerNavComponent()
+// landingPageComponent()
 smoothScrollComponent()

@@ -329,3 +329,15 @@ background-size: cover;
       background-size: cover;
       height:80vh;
       }
+
+     
+      .scroller {
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+    }
+    
+    .scroller section {
+        scroll-snap-align: start;
+    }
+
+    

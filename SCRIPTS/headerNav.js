@@ -1,8 +1,6 @@
 export const headerNavComponent = () => {
     const contentElement = document.getElementById("header")
 
-
-
     contentElement.innerHTML += `
     <nav class="smart-scroll site-header navbar-expand-sm">
     <a class=" backdrop navbar-brand" href="#up">
