@@ -25,7 +25,7 @@
 // javascript, coffeescript, jquery...
 
 function fetchData() {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=New York&appid=adced04f1649ca9bd53f6267f3bd4317`).then(response => {
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Nashville&appid=adced04f1649ca9bd53f6267f3bd4317`).then(response => {
         return response.json()
 
     }).then(data => {
