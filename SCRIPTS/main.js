@@ -1,8 +1,15 @@
+import { dotenv } from "../node_modules/dotenv";
 
+console.log("secret message")
+// process.env.API_KEY;
 
+require('dotenv').config();
+// const api_key = "adced04f1649ca9bd53f6267f3bd4317";
+const api_key = process.env.API_KEY;
 
 function fetchData() {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Nashville&appid=adced04f1649ca9bd53f6267f3bd4317`).then(response => {
+
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Nashville&appid=${api_key}`).then(response => {
         return response.json()
 
     }).then(data => {
